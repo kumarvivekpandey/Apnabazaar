@@ -19,7 +19,7 @@ const products = [
 ]
 
 function App() {
-  return (
+  return(
     <div className="App">
       <h1> hello this  ecommerce application which will be known as Apnabazaar</h1>
 
@@ -56,10 +56,12 @@ function App() {
     
 
 
-      <ProductList> </ProductList>
+      <ProductList /> 
 
       
     </div>
+    </div>
+  
   );
 }
 
