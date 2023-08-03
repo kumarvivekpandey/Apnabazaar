@@ -1,10 +1,5 @@
 import React, { useState } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import {
-  increment,
-  incrementAsync,
-  
-} from './ProductListSlice';
+
 const products = [
   {
     id: 1,
@@ -15,13 +10,9 @@ const products = [
     price: '$35',
     color: 'Black',
   }
-  // More products...
+ 
 ]
 export default function ProductList() {
-  const count = useSelector(selectCount);
-  const dispatch = useDispatch();
- 
-
   return (
     <div>
     
