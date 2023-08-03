@@ -5,7 +5,6 @@ import {
   incrementAsync,
   
 } from './ProductListSlice';
-import styles from './Counter.module.css';
 const products = [
   {
     id: 1,
