@@ -6,11 +6,10 @@ import ProductList from '../features/product-list/ProductList';
 function Home() {
   return (
     <div>
-        <Navbar>
-        <ProductList>
+        <Navbar />
+        <ProductList />
             
-        </ProductList>
-        </Navbar>
+        
     </div>
   )
 }
