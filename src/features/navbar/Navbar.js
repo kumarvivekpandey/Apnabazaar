@@ -1,6 +1,6 @@
 import { Children, Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Bars3Icon,ShoppingCartIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 
 const user = {
@@ -72,7 +72,10 @@ function Navbar() {
                       >
                         <span className="absolute -inset-1.5" />
                         <span className="sr-only">View notifications</span>
-                        <BellIcon className="h-6 w-6" aria-hidden="true" />
+                        <ShoppingCartIcon className="h-6 w-6" aria-hidden="true" />
+                        <span className="inline-flex items-center rounded-md bg-green-50 px-2 mb-6 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">
+        Badge
+      </span>
                       </button>
 
                       {/* Profile dropdown */}
@@ -161,7 +164,11 @@ function Navbar() {
                     >
                       <span className="absolute -inset-1.5" />
                       <span className="sr-only">View notifications</span>
-                      <BellIcon className="h-6 w-6" aria-hidden="true" />
+                      <ShoppingCartIcon className="h-6 w-6" aria-hidden="true" />
+                      <span className="inline-flex items-center rounded-md bg-green-50 px-2 py-1 mb-5 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">
+        4
+      </span>
+                      
                     </button>
                   </div>
                   <div className="mt-3 space-y-1 px-2">
@@ -184,7 +191,7 @@ function Navbar() {
 
         <header className="bg-white shadow">
           <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-            <h1 className="text-3xl font-bold tracking-tight text-gray-900">Dashboard</h1>
+            <h1 className="text-3xl font-bold tracking-tight text-gray-900">Apnabazaar</h1>
           </div>
         </header>
         <main>
