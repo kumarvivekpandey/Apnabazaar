@@ -1,13 +1,16 @@
 import React from 'react'
-import Navbar from '../features/product-list/navbar/Navbar'
-import ProductList from '../features/product-list/ProductList'
+import Navbar from '../features/navbar/Navbar';
+import ProductList from '../features/product-list/ProductList';
 
 
 function Home() {
   return (
     <div>
-        <Navbar />
-        <ProductList />
+        <Navbar>
+        <ProductList>
+            
+        </ProductList>
+        </Navbar>
     </div>
   )
 }
