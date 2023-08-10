@@ -15,7 +15,7 @@ function App() {
     <Routes>
     
       <Route path="/" element={<Home />} />
-      <Route path="/signin" exact component={<Sighnin />} /> 
+      <Route path="/signin"element={<Sighnin />} /> 
        
     </Routes>
     </BrowserRouter>
