@@ -1,7 +1,7 @@
 import { Children, Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon,ShoppingCartIcon, XMarkIcon } from '@heroicons/react/24/outline'
-import lg from './features/navbar/lg.jpg';
+import logo from './logo.jpg';
 
 const user = {
     name: 'Tom Cook',
@@ -40,7 +40,7 @@ function Navbar() {
                     <div className="flex-shrink-0">
                       <img
                         className="h-8 w-18"
-                        src="./features/navbar/lg.jpg"
+                        src="/logo.jpg"
                         alt="Your Company"
                       />
                     </div>
