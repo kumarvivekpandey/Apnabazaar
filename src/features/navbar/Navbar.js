@@ -39,7 +39,7 @@ function Navbar() {
                   <div className="flex items-center">
                     <div className="flex-shrink-0">
                       <img
-                        className="h-8 w-8"
+                        className="h-8 w-18"
                         src="https://apnidukaan.com/media/apnidukaan-header/Apni-logo-white.png"
                         alt="Your Company"
                       />
