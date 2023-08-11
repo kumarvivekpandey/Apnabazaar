@@ -40,7 +40,7 @@ function Navbar() {
                     <div className="flex-shrink-0">
                       <img
                         className="h-8 w-18"
-                        src="/logo.jpg"
+                        src="./logo.jpg"
                         alt="Your Company"
                       />
                     </div>
