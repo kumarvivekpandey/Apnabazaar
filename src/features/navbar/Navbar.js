@@ -9,8 +9,8 @@ const user = {
     imageUrl:'https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678130-profile-alt-4-512.png',
   }
   const navigation = [
-    { name: 'Home', href: '#', current: true },
-    { name: 'About', href: '#', current: false },
+    { name: 'Home', href: '/', current: true },
+    { name: 'About', href: '/About', current: false },
     { name: 'Category', href: '#', current: false },
     { name: 'Blog', href: '#', current: false },
     { name: 'Contact', href: '#', current: false },
