@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Sighnin from './pages/Sighnin';
 import Signup from './pages/Signup';
 import About from './pages/About';
+import ShoppingCart from './pages/ShoppingCart';
 
 
 
@@ -19,6 +20,7 @@ function App() {
     <Route path="signin" element={<Sighnin  />}/>
     <Route path="signup" element={<Signup />}/>
     <Route path="About" element={<About />}/> 
+    <Route path="ShoppingCart" element={<ShoppingCart />}/>
        
     </Routes>
     
