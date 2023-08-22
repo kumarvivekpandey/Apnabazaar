@@ -25,7 +25,7 @@ const products = [
     imageAlt:
       'Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch.',
   },
-  // More products...
+  
 ]
 
 export default function Cart() {
@@ -128,7 +128,7 @@ export default function Cart() {
                       <p className="mt-0.5 text-sm text-gray-500">Shipping and taxes calculated at checkout.</p>
                       <div className="mt-6">
                         <a
-                          href="#"
+                          href="/checkout"
                           className="flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
                         >
                           Checkout
