@@ -16,7 +16,7 @@ const user = {
     { name: 'Contact', href: '#', current: false },
   ]
   const userNavigation = [
-    { name: 'Your Profile', href: '/ShoppingCart' },
+    { name: 'Your Profile', href: '#' },
     { name: 'Signup', href: '/signup' },
     { name: 'Sign in', href: '/signin' },
   ]
