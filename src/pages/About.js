@@ -16,7 +16,7 @@ export default function About() {
   return (
     <div className="bg-white">
      <Navbar />
-
+            
       <div className="relative isolate px-6 pt-14 lg:px-8">
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -36,7 +36,7 @@ export default function About() {
               Announcing our next round of funding.{' '}
               <a href="#" className="font-semibold text-indigo-600">
                 <span className="absolute inset-0" aria-hidden="true" />
-                Read more <span aria-hidden="true">&rarr;</span>
+                Read more e<span aria-hidden="true">&rarr;</span>
               </a>
             </div>
           </div>
