@@ -4,7 +4,7 @@ import Navbar from '../features/navbar/Navbar'
 export default function Checkout() {
   return (
     <div className='container'>
-      <Navbar
+      <Navbar />
         <form>
       <div className="space-y-12 p-20">
         
