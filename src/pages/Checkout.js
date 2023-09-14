@@ -1,9 +1,10 @@
 import React from 'react'
 import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid'
-
+import Navbar from '../features/navbar/Navbar'
 export default function Checkout() {
   return (
-    <div>
+    <div className='container'>
+      <Navbar
         <form>
       <div className="space-y-12 p-20">
         
